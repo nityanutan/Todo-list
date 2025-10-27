@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Voice Command Todo List</title>
+  <link rel="stylesheet" href="style.css" />
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+  <h1>Voice & Text Command Todo List</h1>
+  <p>Delete items by number: "Delete 1". Mark as complete: "Mark 2 done".</p>
+
+  <div class="input-container">
+    <div class="input-field-wrapper">
+      <input type="text" id="todo-input" placeholder="Type a new task...">
+      <button id="voice-btn">🎙️</button>
+    </div>
+    <button id="add-btn">Add</button>
+  </div>
+
+  <ul id="todo-list"></ul>
+
+  <script src="script.js"></script>
+</body>
+</html>
